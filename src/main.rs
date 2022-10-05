@@ -19,7 +19,8 @@ fn main() {
         };
 
         if nterm == 1 {
-            println!("Fibonacci sequence up to {nterm}:\n{n1}")
+            println!("Fibonacci sequence up to {nterm}:\n{n1}");
+            break;
         } else {
             println!("Fibonacci sequence:");
             while count < nterm {
