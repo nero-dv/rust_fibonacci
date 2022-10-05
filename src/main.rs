@@ -23,6 +23,10 @@ fn main() {
             break;
         } else {
             println!("Fibonacci sequence:");
+            if nterm > 185 {
+                println!("Number must be less than 186!");
+                break;
+            }
             while count < nterm {
                 let run: u128 = count + 1;
                 println!("Run: {run}, nth sequence: {n1}");
